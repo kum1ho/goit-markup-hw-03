@@ -1,0 +1,363 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* header */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* display: flex; */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.accent {
+  color: #2e2f42;
+}
+
+.site-nav {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  padding: 24px 0;
+  display: block;
+}
+
+.site-address {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-logo {
+  margin-right: 76px;
+  padding: 24px 0;
+}
+
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #404bbf;
+}
+
+.logo-web:hover,
+.logo-web:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.address .contacts {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: block;
+  padding: 24px 0;
+}
+
+.address .contacts:hover,
+.address .contacts:focus {
+  color: #404bbf;
+}
+
+/* 1 секція */
+
+.container-heading-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-main {
+  background-color: #2e2f42;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 188px 0;
+}
+
+.page-main .heading {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.page-main .button {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.page-main .button:hover,
+.page-main .button:focus {
+  background-color: #404bbf;
+}
+
+/* 2 секція */
+
+.site-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.li-calc {
+  width: calc((100% - 72px) / 4);
+}
+
+.page-main-two {
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.text-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* 3 секція */
+
+.text-three {
+  padding: 32px 0;
+  align-items: center;
+}
+
+.container-heading-portfolio {
+  flex-direction: column;
+}
+
+.site-flex-two {
+  display: flex;
+  gap: 24px;
+}
+
+.page-two {
+  background-color: #f4f4fd;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.page-two .heading-two {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.page-two .img {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  height: 380px;
+}
+
+.heading-two {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.text-list-two {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.heading-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+/* 4 секція */
+
+.heading-three {
+  margin-bottom: 8px;
+}
+
+.text-four {
+  display: flex;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.page-four .container {
+  flex-direction: column;
+}
+
+.page-four-flex {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.page-four .heading-two {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.page-four .img {
+  color: #ffffff;
+}
+
+/* footer */
+
+.finish {
+  background-color: #2e2f42;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.text-list-three {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+
+.finish .accent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.finish .container {
+  align-items: left;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
